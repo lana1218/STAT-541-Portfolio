@@ -55,8 +55,11 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Lab4: I read in the data when it was a txt file.
-https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files
+[Lab4](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files):
+I read in the data when it was a txt file.
+
+[Project1](https://github.com/lana1218/STAT-541-Project1/pull/4/files):
+I followed a Youtube tutorial to enhance the UI/UX of our Shiny app
 
 ------------------------------------------------------------------------
 
@@ -653,6 +656,7 @@ portfolio_levels <- portfolio_levels %>%
 ### Justification:
 
 [Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e):
+I suggested using sapply to vectorize our process. 
 
 ------------------------------------------------------------------------
 
@@ -665,7 +669,7 @@ portfolio_levels <- portfolio_levels %>%
 #| include: false
 #| label: CD-2
 
-my_level <- 2
+my_level <- 1
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -701,6 +705,9 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
+
+[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf):
+I used helper functions to sample color palettes and data. 
 
 ------------------------------------------------------------------------
 
