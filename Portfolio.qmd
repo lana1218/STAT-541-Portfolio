@@ -324,6 +324,10 @@ portfolio_levels <- portfolio_levels %>%
 Lab1: I used a lot of of tidyverse's data wrangling functions to find the answer to Part 2's questions. This includes functions such as group_by, summarize, slice_max, mutate, etc. Additionally, we received an expert level grade for this portion of the lab.
 https://github.com/Cal-Poly-Advanced-R/lab-1-review-evadykaar/pull/6/files
 
+Lab3: We used the map_dfr function to "map" the JSON data to a data frame. 
+
+<https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/4f6f56e604d22ab2b10d94bffad922daa53e65dc>
+
 
 ------------------------------------------------------------------------
 
@@ -333,7 +337,7 @@ https://github.com/Cal-Poly-Advanced-R/lab-1-review-evadykaar/pull/6/files
 
 ```{r, include = FALSE}
 ## Fill in the line below with your self-assigned level for this objective.
-my_level <- 0
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(tibble(Objective = "DM-3", 
@@ -343,6 +347,10 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification
+
+Lab3: We had to look at the information/documentation ont he satellite passes website to figure out how to use the API to access the JSON data. We then used the map_dfr to return it as a dataframe. 
+https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e
+https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/4f6f56e604d22ab2b10d94bffad922daa53e65dc
 
 ------------------------------------------------------------------------
 
@@ -354,7 +362,7 @@ portfolio_levels <- portfolio_levels %>%
 #| include: false
 #| label: DM-4
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -366,6 +374,9 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification
+
+Lab4: We used web scraping to get the information about each of the ten cheeses., with the help of Chat GPT. 
+https://github.com/Cal-Poly-Advanced-R/introduction-to-webscraping-brendad8/pull/6/files
 
 ------------------------------------------------------------------------
 
@@ -398,6 +409,12 @@ portfolio_levels <- portfolio_levels %>%
 
 Lab3: When recreating the "ugly" plot from this lab, I had to make a new dataframe in order to manipulate the variables for plotting. I ordered the categorical variables by using the factor function. 
 https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files
+
+Lab9: I used ggplot to plot my points from an existing dataset in polar coordinates to make art!
+https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf
+
+Lab9: I used ggplot from data points that were generated in order to make art!
+https://github.com/lana1218/STAT-541-Lab9/commit/31efda82af6dd241a453c7048397c1008d0d543a
 
 ------------------------------------------------------------------------
 
@@ -437,7 +454,7 @@ https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/file
 #| include: false
 #| label: PV-3
 
-my_level <- 2
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -506,7 +523,7 @@ https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/7/files
 #| include: false
 #| label: SD-2
 
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -519,6 +536,25 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification
 
+Project2: There is no pull request, but I set up the R package using the {use this} helper functions
+
+
+Project2: I made sure all of the functions that I wrote was well-documented using {roxygen2} style commenting.
+
+<https://github.com/lana1218/rbooty/pull/5/files>
+
+<https://github.com/lana1218/rbooty/pull/8>
+
+
+Project2: I helped brainstorm what kind of unit tests were needed for our R package.
+
+<https://github.com/lana1218/rbooty/pull/13/files>
+
+
+Project2: I helped make our package more user friendly by adding use cases to our README file.
+
+<https://github.com/lana1218/rbooty/pull/11/files>
+
 ------------------------------------------------------------------------
 
 # Algorithms and Iteration (AI):
@@ -530,12 +566,13 @@ portfolio_levels <- portfolio_levels %>%
 ## \[AI-1\] Creating an algorithm:
 
 -   I can invent and implement my own iterative algorithm.
+-   I have built in checks for possible problems or extreme cases in the algorithm.
 
 ```{r}
 #| include: false
 #| label: AI-1
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -548,6 +585,13 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
+[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e):
+I helped brainstorm how to get the url for the 3 closes future international space stations passes.
+
+[Project2](https://github.com/lana1218/rbooty/pull/8/files):
+I created stopping conditions for the case that the user inputs something invalid.
+
+
 ------------------------------------------------------------------------
 
 ## \[AI-2\] Generative art:
@@ -559,7 +603,7 @@ portfolio_levels <- portfolio_levels %>%
 #| include: false
 #| label: AI-2
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -571,6 +615,12 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
+
+[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/31efda82af6dd241a453c7048397c1008d0d543a):
+I created generative art by making functions to sample data, color palettes, and plot points. I explained how I utilized different angles and radii lengths to make my art. 
+
+[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf):
+I also created art using an existing dataset. 
 
 ------------------------------------------------------------------------
 
@@ -589,7 +639,7 @@ portfolio_levels <- portfolio_levels %>%
 #| include: false
 #| label: CD-1
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -602,6 +652,8 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
+[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e):
+
 ------------------------------------------------------------------------
 
 ## \[CD-2\] Object handling:
@@ -613,7 +665,7 @@ portfolio_levels <- portfolio_levels %>%
 #| include: false
 #| label: CD-2
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -637,7 +689,7 @@ portfolio_levels <- portfolio_levels %>%
 #| include: false
 #| label: CD-3
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
