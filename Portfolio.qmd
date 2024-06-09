@@ -141,7 +141,7 @@ https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files
 #| include: false
 #| label: RW-2
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -154,6 +154,12 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
+Lab2: I used Quarto formatting styles to organize all of the bullet points presented in this analysis
+https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files
+
+Lab4: I added labels to my code chunks.
+https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files
+
 ------------------------------------------------------------------------
 
 ## \[RW-3\] Code style
@@ -165,7 +171,7 @@ portfolio_levels <- portfolio_levels %>%
 #| include: false
 #| label: RW-3
 
-my_level <- 2
+my_level <- 1
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -178,11 +184,6 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification
 
-Lab2: I used Quarto formatting styles to organize all of the bullet points presented in this analyssis
-https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files
-
-Lab4: I added labels to my code chunks.
-https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files
 
 ------------------------------------------------------------------------
 
@@ -202,7 +203,7 @@ https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files
 #| include: false
 #| label: TC-1
 
-my_level <- 1
+my_level <- 4
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -215,6 +216,15 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
+Lab1: I interpreted the p-values for the predictors.
+https://github.com/Cal-Poly-Advanced-R/lab-1-review-evadykaar/pull/10/files
+
+Project1: We wrote this in class together, but essentially, this README file contained information about an overview of our dataset, data cleaning steps, scrips and files in our folder, and the capabilities of the app. 
+https://github.com/lana1218/STAT-541-Project1/commit/1c666a4502ce04d60321eb9d84908587a559ff1d
+
+Project2: I created a README file for our package using R markdown. This allowed the user to see a high-level overview of the capabilities of the package. This README file included a description of the package overall as well as a few use cases and sample code.
+https://github.com/lana1218/rbooty/pull/11/files
+
 ------------------------------------------------------------------------
 
 ## \[TC-2\] Documentation:
@@ -226,7 +236,7 @@ portfolio_levels <- portfolio_levels %>%
 #| include: false
 #| label: TC-2
 
-my_level <- 1
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -238,6 +248,12 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
+
+Project2: I wrote a custom function for the package and provided documentation in the form of a docstring, so that the user is able to prompt the "help" in R and understand how to use the function. 
+https://github.com/lana1218/rbooty/pull/8/files
+
+Project2: I created a README file for our package using R markdown. This allowed the user to see a high-level overview of the capabilities of the package. Additionally, there were examples of use cases and sample code, so that the user is able to follow along and replicate. 
+https://github.com/lana1218/rbooty/pull/11/files
 
 ------------------------------------------------------------------------
 
@@ -268,6 +284,15 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification:
+
+Lab1: I had to clean up the "date of birth" variable since all of the observations had many different types of formats.  
+https://github.com/Cal-Poly-Advanced-R/lab-1-review-evadykaar/pull/6/files
+
+Lab2: We read in the dataset (xlsx format) using read_excel. Since we need to change the coding of the variable from numeric to the actual region, I suggested using a "mutate case when" function in order to reassign the different regions. 
+https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/1/files
+
+Lab3: We read in the states_capital.txt dataset.
+https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/70f887c48c35f1dc25b48bb39024dda8ddd8138f
 
 Project1: The "911 calls" dataset from the Seattle website consisted of almost 2 million rows. I took a sample of that dataset and saved it to a new csv file. I cleaned our dataset by making sure our variables are in Datetime format. Even though our sampled file was significantly smaller than before, I still needed to filter it by the year 2023 so that the app does not lag as much. 
 https://github.com/lana1218/STAT-541-Project1/pull/2/files
@@ -470,31 +495,6 @@ https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/7/files
 
 ------------------------------------------------------------------------
 
-## \[SD-1\] R programming language details
-
--   I understand non-standard evaluation (aka "Tidy Eval" or "unquoted objects"), and I can use tunneling in my functions.
--   I understand functional programming, and I can use functions as objects in my code design
--   I understand object-oriented programming, and I can define my own classes and methods.
-
-```{r}
-#| include: false
-#| label: SD-1
-
-my_level <- 1
-
-portfolio_levels <- portfolio_levels %>%
-  bind_rows(
-    tibble(Objective = "SD-1", 
-           Level = my_level)
-    )
-```
-
-### Level: `r my_level`
-
-### Justification:
-
-------------------------------------------------------------------------
-
 ## \[SD-2\] Package creation:
 
 -   I can create a folder that is installable as an R package, possibly using {usethis} helper functions
@@ -518,60 +518,6 @@ portfolio_levels <- portfolio_levels %>%
 ### Level: `r my_level`
 
 ### Justification
-
-------------------------------------------------------------------------
-
-# Matrix Operations (MO):
-
-*These objectives show your ability to manipulate data-related information in the form of vectors and matrices, rather than in high-level data structures.*
-
-------------------------------------------------------------------------
-
-## \[MO-1\] Theory:
-
--   I understand the difference between ordinary multiplication and matrix multiplication, and how to implement each in R
--   I can implement and briefly explain the matrix equations for multiple linear regression
-
-```{r}
-#| include: false
-#| label: MO-1
-
-my_level <- 1
-
-portfolio_levels <- portfolio_levels %>%
-  bind_rows(
-    tibble(Objective = "MO-1", 
-           Level = my_level)
-    )
-```
-
-### Level: `r my_level`
-
-### Justification:
-
-------------------------------------------------------------------------
-
-## \[MO-2\] Object structures:
-
--   I can convert data objects into the necessary matrix structures to perform operations on them.
--   I can convert results of matrix operations to convenient data analysis formats
-
-```{r}
-#| include: false
-#| label: MO-2
-
-my_level <- 1
-
-portfolio_levels <- portfolio_levels %>%
-  bind_rows(
-    tibble(Objective = "MO-2", 
-           Level = my_level)
-    )
-```
-
-### Level: `r my_level`
-
-### Justification:
 
 ------------------------------------------------------------------------
 
@@ -696,31 +642,6 @@ my_level <- 1
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
     tibble(Objective = "CD-3", 
-           Level = my_level)
-    )
-```
-
-### Level: `r my_level`
-
-### Justification:
-
-------------------------------------------------------------------------
-
-## \[CD-4\] Algorithmic process:
-
--   My loops are clean and efficient
--   Proper values are calculated to update objects and/or determine stopping conditions
--   I have built in checks for possible problems or extreme cases in the algorithm
-
-```{r}
-#| include: false
-#| label: CD-4
-
-my_level <- 1
-
-portfolio_levels <- portfolio_levels %>%
-  bind_rows(
-    tibble(Objective = "CD-4", 
            Level = my_level)
     )
 ```
