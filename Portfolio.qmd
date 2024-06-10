@@ -42,7 +42,7 @@ portfolio_levels <- tibble(
 # 3 = mastery 
 # 4 = expert
 
-my_level <- 2
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -55,11 +55,14 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-[Lab4](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files):
-I read in the data when it was a txt file.
+[Lab2](https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files):
+I read the documentation for the ggpubr package to be able to enhance my data visualization. 
 
-[Project1](https://github.com/lana1218/STAT-541-Project1/pull/4/files):
-I followed a Youtube tutorial to enhance the UI/UX of our Shiny app
+[Lab4](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files): 
+I read in the data when it was a txt file (base R).
+
+[Project1](https://github.com/lana1218/STAT-541-Project1/pull/4/files): 
+I followed a Youtube tutorial to enhance the UI/UX of our Shiny app. 
 
 ------------------------------------------------------------------------
 
@@ -89,13 +92,14 @@ portfolio_levels <- portfolio_levels %>%
 
 Github: I used online resources to learn how to use git commands. Additionally, I learned about best practices for Github during collaboration.
 
-Project1: 
+[Project1](https://github.com/lana1218/STAT-541-Project1/pull/1/files):
+We used ChatGPT to set up the RShiny app 
 
-We used ChatGPT to set up the RShiny app
-https://github.com/lana1218/STAT-541-Project1/pull/1/files
+[Project1](https://github.com/lana1218/STAT-541-Project1/pull/4/files):
+I watched a Youtube video titled "How to bring modern UI to your Shiny apps" in order to make our app look prettier. 
 
-I watched a Youtube video titled "How to bring modern UI to your Shiny apps" in order to make our app look prettier.
-https://github.com/lana1218/STAT-541-Project1/pull/4/files
+[Lab4](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e):
+We had to look at the information/documentation ont he satellite passes website to figure out how to use the API to access the JSON data.
 
 ------------------------------------------------------------------------
 
@@ -125,13 +129,13 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Github: Before this class, I never really used Git and Github. I'm glad that one of the goals since the beginning of the class was to learn about it, and I have been taking that very seriously. I learned git commands, so that I can use Github features outside of R. My partner, Eva, was not very well versed in data management, so I helped her answer questions about Github related stuff. I ran into merge conflicts, and I was able to help solve that. 
+Github: Before this class, I never really used Git and Github. I'm glad that one of the goals since the beginning of the class was to learn about it, and I have been taking that very seriously. I learned git commands, so that I can use Github features outside of R. My partner, Eva, was not very well versed in data management, so I helped her answer questions about Github related stuff. I ran into merge conflicts, and I was able to help solve that.
 
-Project1: I set up this Github repository, and organized the files in its correct directory such as "Data" and "Scripts". I used the "here" package when reading in my data.  
-https://github.com/lana1218/STAT-541-Project1/pull/2/files
+[Project1](https://github.com/lana1218/STAT-541-Project1/pull/2/files): 
+I set up this Github repository, and organized the files in its correct directory such as "Data" and "Scripts". I used the "here" package when reading in my data.
 
-Lab4: Another example of organizing files in appropriate directories and using the "here" package.
-https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files
+[Lab4](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files): 
+Another example of organizing files in appropriate directories and using the "here" package. 
 
 ------------------------------------------------------------------------
 
@@ -144,7 +148,7 @@ https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files
 #| include: false
 #| label: RW-2
 
-my_level <- 2
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -157,11 +161,14 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Lab2: I used Quarto formatting styles to organize all of the bullet points presented in this analysis
-https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files
+[Lab2](https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files):
+I used Quarto formatting styles to organize all of the bullet points presented in this analysis 
 
-Lab4: I added labels to my code chunks.
-https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files
+[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/7/files):
+I added to the YAML to intentionally set the global chunk options(echo, include, message, warning).
+
+[Lab4](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files):
+I added labels to my code chunks to make it easier to navigate in my notebook.
 
 ------------------------------------------------------------------------
 
@@ -174,7 +181,7 @@ https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/1/files
 #| include: false
 #| label: RW-3
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -187,6 +194,11 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification
 
+[Lab2](https://github.com/Cal-Poly-Advanced-R/introduction-to-webscraping-brendad8/pull/8/files):
+I fixed the formatting from the work that my teammates did. The bullet points were not consistent, so I made sure they were. 
+
+[Project2](https://github.com/lana1218/rbooty/pull/8/files):
+I made comments to every part of my code to indicate what is happening. For example, I labeled where the stopping conditions began and what kind of statistics are the valid inputs. 
 
 ------------------------------------------------------------------------
 
@@ -219,14 +231,14 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Lab1: I interpreted the p-values for the predictors.
-https://github.com/Cal-Poly-Advanced-R/lab-1-review-evadykaar/pull/10/files
+[Lab1](https://github.com/Cal-Poly-Advanced-R/lab-1-review-evadykaar/pull/10/files): 
+I interpreted the p-values for the predictors. 
 
-Project1: We wrote this in class together, but essentially, this README file contained information about an overview of our dataset, data cleaning steps, scrips and files in our folder, and the capabilities of the app. 
-https://github.com/lana1218/STAT-541-Project1/commit/1c666a4502ce04d60321eb9d84908587a559ff1d
+(Project1)[https://github.com/lana1218/STAT-541-Project1/commit/1c666a4502ce04d60321eb9d84908587a559ff1d]: 
+We wrote this in class together, but essentially, this README file contained information about an overview of our dataset, data cleaning steps, scrips and files in our folder, and the capabilities of the app. 
 
-Project2: I created a README file for our package using R markdown. This allowed the user to see a high-level overview of the capabilities of the package. This README file included a description of the package overall as well as a few use cases and sample code.
-https://github.com/lana1218/rbooty/pull/11/files
+[Project2](https://github.com/lana1218/rbooty/pull/11/files): 
+I created a README file for our package using R markdown. This allowed the user to see a high-level overview of the capabilities of the package. This README file included a description of the package overall as well as a few use cases and sample code. 
 
 ------------------------------------------------------------------------
 
@@ -252,11 +264,11 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Project2: I wrote a custom function for the package and provided documentation in the form of a docstring, so that the user is able to prompt the "help" in R and understand how to use the function. 
-https://github.com/lana1218/rbooty/pull/8/files
+[Project2](https://github.com/lana1218/rbooty/pull/8/files):
+I wrote a custom function for the package and provided documentation in the form of a docstring, so that the user is able to prompt the "help" in R and understand how to use the function. 
 
-Project2: I created a README file for our package using R markdown. This allowed the user to see a high-level overview of the capabilities of the package. Additionally, there were examples of use cases and sample code, so that the user is able to follow along and replicate. 
-https://github.com/lana1218/rbooty/pull/11/files
+[Project2](https://github.com/lana1218/rbooty/pull/11/files):
+I created a README file for our package using R markdown. This allowed the user to see a high-level overview of the capabilities of the package. Additionally, there were examples of use cases and sample code, so that the user is able to follow along and replicate. 
 
 ------------------------------------------------------------------------
 
@@ -275,7 +287,7 @@ https://github.com/lana1218/rbooty/pull/11/files
 #| include: false
 #| label: DM-1
 
-my_level <- 2
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -288,17 +300,20 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Lab1: I had to clean up the "date of birth" variable since all of the observations had many different types of formats.  
-https://github.com/Cal-Poly-Advanced-R/lab-1-review-evadykaar/pull/6/files
+[Lab1](https://github.com/Cal-Poly-Advanced-R/lab-1-review-evadykaar/pull/6/files):
+I had to clean up the "date of birth" variable since all of the observations had many different types of formats.
 
-Lab2: We read in the dataset (xlsx format) using read_excel. Since we need to change the coding of the variable from numeric to the actual region, I suggested using a "mutate case when" function in order to reassign the different regions. 
-https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/1/files
+[Lab2](https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/1/files):
+We read in the dataset (xlsx format) using read_excel. Since we need to change the coding of the variable from numeric to the actual region, I suggested using a "mutate case when" function in order to reassign the different regions. 
 
-Lab3: We read in the states_capital.txt dataset.
-https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/70f887c48c35f1dc25b48bb39024dda8ddd8138f
+[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/70f887c48c35f1dc25b48bb39024dda8ddd8138f): 
+We read in the states_capital.txt dataset. 
 
-Project1: The "911 calls" dataset from the Seattle website consisted of almost 2 million rows. I took a sample of that dataset and saved it to a new csv file. I cleaned our dataset by making sure our variables are in Datetime format. Even though our sampled file was significantly smaller than before, I still needed to filter it by the year 2023 so that the app does not lag as much. 
-https://github.com/lana1218/STAT-541-Project1/pull/2/files
+[Project1](https://github.com/lana1218/STAT-541-Project1/pull/2/files): 
+The "911 calls" dataset from the Seattle website consisted of almost 2 million rows. I took a sample of that dataset and saved it to a new csv file. I cleaned our dataset by making sure our variables are in Datetime format. Even though our sampled file was significantly smaller than before, I still needed to filter it by the year 2023 so that the app does not lag as much. 
+
+[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf):
+I cleaned the "surf" dataset to only include numeric values, so that I can generate art from it. 
 
 ------------------------------------------------------------------------
 
@@ -324,13 +339,11 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Lab1: I used a lot of of tidyverse's data wrangling functions to find the answer to Part 2's questions. This includes functions such as group_by, summarize, slice_max, mutate, etc. Additionally, we received an expert level grade for this portion of the lab.
-https://github.com/Cal-Poly-Advanced-R/lab-1-review-evadykaar/pull/6/files
+[Lab1](https://github.com/Cal-Poly-Advanced-R/lab-1-review-evadykaar/pull/6/files):
+I used a lot of of tidyverse's data wrangling functions to find the answer to Part 2's questions. This includes functions such as group_by, summarize, slice_max, mutate, etc. Additionally, we received an expert level grade for this portion of the lab. 
 
-Lab3: We used the map_dfr function to "map" the JSON data to a data frame. 
-
-<https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/4f6f56e604d22ab2b10d94bffad922daa53e65dc>
-
+[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/4f6f56e604d22ab2b10d94bffad922daa53e65dc):
+We used the map_dfr function to "map" the JSON data to a data frame.
 
 ------------------------------------------------------------------------
 
@@ -351,9 +364,8 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification
 
-Lab3: We had to look at the information/documentation ont he satellite passes website to figure out how to use the API to access the JSON data. We then used the map_dfr to return it as a dataframe. 
-https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e
-https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/4f6f56e604d22ab2b10d94bffad922daa53e65dc
+[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/4f6f56e604d22ab2b10d94bffad922daa53e65dc):
+We had to look at the information/documentation ont he satellite passes website to figure out how to use the API to access the JSON data. We then used the map_dfr to return it as a dataframe. 
 
 ------------------------------------------------------------------------
 
@@ -378,8 +390,7 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification
 
-Lab4: We used web scraping to get the information about each of the ten cheeses., with the help of Chat GPT. 
-https://github.com/Cal-Poly-Advanced-R/introduction-to-webscraping-brendad8/pull/6/files
+[Lab4](https://github.com/Cal-Poly-Advanced-R/introduction-to-webscraping-brendad8/pull/6/files): We used web scraping to get the information about each of the ten cheeses, with the help of Chat GPT. 
 
 ------------------------------------------------------------------------
 
@@ -397,7 +408,7 @@ https://github.com/Cal-Poly-Advanced-R/introduction-to-webscraping-brendad8/pull
 #| include: false
 #| label: PV-1
 
-my_level <- 2
+my_level <- 3
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -410,14 +421,17 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Lab3: When recreating the "ugly" plot from this lab, I had to make a new dataframe in order to manipulate the variables for plotting. I ordered the categorical variables by using the factor function. 
-https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files
+[Lab2](https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files): 
+When recreating the "ugly" plot from this lab, I had to make a new data frame in order to manipulate the variables for plotting. I ordered the categorical variables by using the factor function. 
 
-Lab9: I used ggplot to plot my points from an existing dataset in polar coordinates to make art!
-https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf
+[Project2](https://github.com/lana1218/rbooty/pull/5/files):
+Here is an example where I set up a function to plot a histogram, given a bootstrap distribution. Another parameter that I added to the function was "statistic," so I can use the user's input to give the plot a title. 
 
-Lab9: I used ggplot from data points that were generated in order to make art!
-https://github.com/lana1218/STAT-541-Lab9/commit/31efda82af6dd241a453c7048397c1008d0d543a
+[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf): 
+I used ggplot to plot my points from an existing dataset in polar coordinates to make art! 
+
+[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/31efda82af6dd241a453c7048397c1008d0d543a): 
+I used ggplot from data points that were generated from uniform distributions in order to make art! 
 
 ------------------------------------------------------------------------
 
@@ -430,7 +444,7 @@ https://github.com/lana1218/STAT-541-Lab9/commit/31efda82af6dd241a453c7048397c10
 #| include: false
 #| label: PV-2
 
-my_level <- 3
+my_level <- 4
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -443,8 +457,14 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Lab3: To recreate the "ugly" plot from the original report, I utilized a variety of theme functions to make the plot look as nice as possible. For this plot in particular, I used "theme_pubr" so that it is ready for publication. Additionally, I made sure the texts were the correct size so that it is readable. I gave the plot a title to the plot to indicated what the variables are, and I made a subtitle to indicate what trend the reader should be seeing. 
-https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files
+[Lab2](https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files):
+To clearly label my plot, I gave it a title and subtitle. I also removed the default axis labels since we did not need them for the plot to be clear. 
+
+[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-2-visualization-evadykaar/pull/7/files):
+To recreate the "ugly" plot from the original report, I utilized a variety of theme functions to make the plot look as nice as possible. For this plot in particular, I used "theme_pubr" so that it is ready for publication. Additionally, I made sure the texts were the correct size so that it is readable. I gave the plot a title to the plot to indicated what the variables are, and I made a subtitle to indicate what trend the reader should be seeing. 
+
+[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf):
+Here is an example where I chose a color palette called "Surf and Turf" for my art piece. I also gave it a title.
 
 ------------------------------------------------------------------------
 
@@ -470,11 +490,9 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Project1: I made a leaflet plot.
-https://github.com/lana1218/STAT-541-Project1/pull/2/files
+Project1: I made a leaflet plot. https://github.com/lana1218/STAT-541-Project1/pull/2/files
 
-Lab4: We didn't use gganaimate, but we still made a dynamic visualization to animate the route of the ISS. 
-https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/7/files
+Lab4: We made a dynamic visualization to animate the route of the ISS. https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/7/files
 
 ------------------------------------------------------------------------
 
@@ -500,12 +518,9 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-Project1: I created a Shiny App that displays a map of 911 accidents in Seattle, a time-series plot, and the average number of accidents per day. The filters that the user can toggle with include the type of accident and the month of accident. Not only can I implement these features and explain them thoroughly, but I can make a beautiful user-interface. I made a toggle for the filters, so that the user can close them if they wanted full-screen the output. Additionally, I intentionally chose appealing themes, fonts, and colors. 
-https://github.com/lana1218/STAT-541-Project1/pull/4/files
-https://github.com/lana1218/STAT-541-Project1/pull/2/files
+Project1: I created a Shiny App that displays a map of 911 accidents in Seattle, a time-series plot, and the average number of accidents per day. The filters that the user can toggle with include the type of accident and the month of accident. Not only can I implement these features and explain them thoroughly, but I can make a beautiful user-interface. I made a toggle for the filters, so that the user can close them if they wanted full-screen the output. Additionally, I intentionally chose appealing themes, fonts, and colors. https://github.com/lana1218/STAT-541-Project1/pull/4/files https://github.com/lana1218/STAT-541-Project1/pull/2/files
 
-Lab4: We created a Shiny app to display the route of the ISS. I made the app look prettier using the UI skills that I learned from the previous project.
-https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/7/files
+Lab4: We created a Shiny app to display the route of the ISS. I made the app look prettier using the UI skills that I learned from the previous project. https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/pull/7/files
 
 ------------------------------------------------------------------------
 
@@ -541,18 +556,15 @@ portfolio_levels <- portfolio_levels %>%
 
 Project2: There is no pull request, but I set up the R package using the {use this} helper functions
 
-
 Project2: I made sure all of the functions that I wrote was well-documented using {roxygen2} style commenting.
 
 <https://github.com/lana1218/rbooty/pull/5/files>
 
 <https://github.com/lana1218/rbooty/pull/8>
 
-
 Project2: I helped brainstorm what kind of unit tests were needed for our R package.
 
 <https://github.com/lana1218/rbooty/pull/13/files>
-
 
 Project2: I helped make our package more user friendly by adding use cases to our README file.
 
@@ -588,12 +600,9 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e):
-I helped brainstorm how to get the url for the 3 closes future international space stations passes.
+[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e): I helped brainstorm how to get the url for the 3 closes future international space stations passes.
 
-[Project2](https://github.com/lana1218/rbooty/pull/8/files):
-I created stopping conditions for the case that the user inputs something invalid.
-
+[Project2](https://github.com/lana1218/rbooty/pull/8/files): I created stopping conditions for the case that the user inputs something invalid.
 
 ------------------------------------------------------------------------
 
@@ -619,11 +628,9 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/31efda82af6dd241a453c7048397c1008d0d543a):
-I created generative art by making functions to sample data, color palettes, and plot points. I explained how I utilized different angles and radii lengths to make my art. 
+[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/31efda82af6dd241a453c7048397c1008d0d543a): I created generative art by making functions to sample data, color palettes, and plot points. I explained how I utilized different angles and radii lengths to make my art.
 
-[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf):
-I also created art using an existing dataset. 
+[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf): I also created art using an existing dataset.
 
 ------------------------------------------------------------------------
 
@@ -655,8 +662,11 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e):
-I suggested using sapply to vectorize our process. 
+[Lab3](https://github.com/Cal-Poly-Advanced-R/lab-3-using-apis-joshblank73/commit/310d808736f7290c90ef22852482a62a227aa92e): 
+I suggested using sapply to vectorize our process.
+
+[Project2](https://github.com/lana1218/rbooty/pull/8/files):
+I used an "if" and "else if" logic to minimizing the number of checks I needed to do (boolean zen).
 
 ------------------------------------------------------------------------
 
@@ -669,7 +679,7 @@ I suggested using sapply to vectorize our process.
 #| include: false
 #| label: CD-2
 
-my_level <- 1
+my_level <- 2
 
 portfolio_levels <- portfolio_levels %>%
   bind_rows(
@@ -706,8 +716,7 @@ portfolio_levels <- portfolio_levels %>%
 
 ### Justification:
 
-[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf):
-I used helper functions to sample color palettes and data. 
+[Lab9](https://github.com/lana1218/STAT-541-Lab9/commit/11182a08e09678a08d50c2c5c6dee6e366c810cf): I used helper functions to sample color palettes and data.
 
 ------------------------------------------------------------------------
 
@@ -739,4 +748,5 @@ portfolio_levels %>%
 Based on the summary plot above, I believe I have earned an A in STAT 541.
 
 ### Justification
-Based on the content of this course, I think I have put a lot of effort into learning and mastering the learning objectives for each week. Although I still have a lot of 1s and 2s at this time, I will continue to build upon my portfolio in the coming weeks to show that I fully mastered the material. 
+
+Based on the content of this course, I think I have put a lot of effort into learning and mastering the learning objectives for each week. Although I still have a lot of 1s and 2s at this time, I will continue to build upon my portfolio in the coming weeks to show that I fully mastered the material.
